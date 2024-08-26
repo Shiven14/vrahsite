@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height */
+}
+
+.content {
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
